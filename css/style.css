@@ -273,12 +273,9 @@ footer .footer-content{
         flex-direction: column;
         padding: 20px;
     }
-    /* .left-banner{
-        width: 100%;
+    .left-banner{
+        order:2 ;
     }
-    .right-banner{
-        width: 100%;
-    } */
     .collections{
             display: grid;
             grid-template-columns: repeat(1,1fr);
@@ -341,8 +338,8 @@ footer .footer-content{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         align-items: center;
-        width: 90%;
-        padding-left:10px ;
+        /* width: 100%; */
+        /* padding-left:10px ; */
     }
     .nav-container{
         padding: 20px;
